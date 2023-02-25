@@ -72,8 +72,6 @@ mongoose.connect("mongodb://127.0.0.1:27017/userDB",
          res.redirect('/');         
          }
       });
-
-      console.log("loged out")
    });
 
    app.post('/register', function(req, res){
